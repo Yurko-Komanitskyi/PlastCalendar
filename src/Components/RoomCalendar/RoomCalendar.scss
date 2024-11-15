@@ -133,9 +133,16 @@
   border-color: #2196F3;
 }
 
-@media (max-width: 485px) {
+@media (max-width: 615px) {
   .flex {
-    justify-content: space-between;
     margin-bottom: 5px;
+  }
+
+  .react-datepicker {
+    
+  }
+
+  .react-datepicker-popper {
+    transform: scale(60%) translate(-270.5px, -55px) !important;
   }
 }

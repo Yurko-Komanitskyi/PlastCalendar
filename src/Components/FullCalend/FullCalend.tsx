@@ -93,6 +93,12 @@ export const FullCalend: React.FC<Props> = ({ events, selectedDate }) => {
       }}
       schedulerLicenseKey="CC-Attribution-NonCommercial-NoDerivatives"
       eventClassNames={eventClasses}
+      titleFormat={{
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+        weekday: 'long', // Додає день тижня
+      }}
     />
   );
 };
