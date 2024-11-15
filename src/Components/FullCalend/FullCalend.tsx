@@ -97,7 +97,7 @@ export const FullCalend: React.FC<Props> = ({ events, selectedDate }) => {
         year: 'numeric',
         month: 'long',
         day: 'numeric',
-        weekday: 'long', // Додає день тижня
+        weekday: 'short',
       }}
     />
   );
