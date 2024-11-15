@@ -17,7 +17,7 @@ This project is a calendar application for displaying events and meetings in var
 - **CSS** – for styling the calendar components
 
 ## Useful Links
-- [DEMO LINK]()
+- [DEMO LINK](https://yurko-komanitskyi.github.io/PlastCalendar/)
 
 ## Getting Started
 To set up and run the project locally, follow these steps:
