@@ -1,0 +1,25 @@
+.eventStyle {
+  border: none;
+  padding: 3px 8px;
+  &--conf {
+    background-color: rgb(63, 81, 181);
+  }
+  &--nova {
+    background-color: rgb(246, 191, 38);
+  }
+  &--part {
+    background-color: rgb(142, 36, 170);
+  }
+  &--pidv {
+    background-color: rgb(11, 128, 67);
+  }
+  &--ptas {
+    background-color: rgb(3, 155, 229);
+  }
+  &--yuna {
+    background-color: rgb(213, 0, 0);
+  }
+  &--mans {
+    background-color: rgb(244, 81, 30);
+  }
+}
