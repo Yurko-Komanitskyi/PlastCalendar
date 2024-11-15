@@ -28,8 +28,16 @@
   font-size: 12px;
 }
 
-@media (max-width: 740px) {
+@media (max-width: 485px) {
   .fc .fc-toolbar{
     flex-direction: column !important;
+  }
+
+  .fc-toolbar-title {
+    font-size: 16px !important;
+  }
+
+  .title {
+    font-size: 18px;
   }
 }

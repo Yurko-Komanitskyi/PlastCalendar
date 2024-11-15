@@ -132,3 +132,9 @@
 .react-datepicker__month-year-select:hover {
   border-color: #2196F3;
 }
+
+@media (max-width: 485px) {
+  .flex {
+    justify-content: space-between;
+  }
+}
