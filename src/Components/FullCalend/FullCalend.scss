@@ -23,3 +23,13 @@
     background-color: rgb(244, 81, 30);
   }
 }
+
+.vuhovnuk {
+  font-size: 12px;
+}
+
+@media (max-width: 740px) {
+  .fc .fc-toolbar{
+    flex-direction: column !important;
+  }
+}

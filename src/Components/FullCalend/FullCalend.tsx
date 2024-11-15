@@ -55,7 +55,7 @@ export const FullCalend: React.FC<Props> = ({ events, selectedDate }) => {
       <div>
         <strong>{event.title}</strong>
         <div>{`${formatTime(event.start)} - ${formatTime(event.end)}`}</div>
-        <div>{event.extendedProps.description}</div>
+        <div className="vuhovnuk">{event.extendedProps.description}</div>
       </div>
     );
   };
@@ -75,7 +75,7 @@ export const FullCalend: React.FC<Props> = ({ events, selectedDate }) => {
       initialView="resourceTimeGridDay"
       events={events}
       locale="uk"
-      dayMinWidth={200}
+      dayMinWidth={170}
       eventContent={eventContent}
       resources={rooms.map(room => ({
         id: room.id,
